@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Voting App</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <h1>Meme Voting App</h1>
+
+    <!-- Meme Submission Form -->
+    <form id="memeForm">
+        <h3>Add a Meme</h3>
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required>
+
+        <label for="imageUrl">Image URL:</label>
+        <input type="url" id="imageUrl" name="imageUrl" required>
+
+        <button type="submit">Submit Meme</button>
+    </form>
+
+    <!-- Container for displaying memes as cards -->
+    <div id="memes"></div>
+
+    <script src="script.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>
