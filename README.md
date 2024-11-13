@@ -3,6 +3,9 @@
 
 A simple Meme Voting App where users can add memes, view a gallery, and upvote or downvote their favorite memes. This app is built with Node.js, Express, and MongoDB on the backend and HTML, CSS, and JavaScript on the frontend.
 
+## Demo
+![Demo Screenshot](demo-screenshot.png)
+
 ## Features
 - **Add Memes**: Submit memes with a title and image URL.
 - **Vote**: Upvote or downvote memes.
@@ -89,16 +92,6 @@ The backend provides the following endpoints for managing memes:
 - **GET /memes**: Retrieve all memes, sorted by vote count.
 - **PUT /memes/:id/vote**: Upvote or downvote a meme by ID (use `?action=upvote` or `?action=downvote`).
 - **GET /memes/random**: Retrieve a random meme.
-
----
-
-## Screenshots
-
-### Meme Submission Form
-TODO: Add screenshots
-
-### Meme Gallery
-TODO: Add screenshots
 
 ---
 
